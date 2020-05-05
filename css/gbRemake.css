@@ -1,0 +1,82 @@
+.s-home::before {
+    background-color: transparent;
+}
+
+.s-homeHeaderTextColor {
+    color: white !important;
+    font-weight: bold;
+    font-size: 72px !important;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.s-homeTextColor {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+    display: flex;
+    align-items: center !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+}
+
+.photoTitle {
+    margin-bottom: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    display: flex;
+    color: #000 !important;
+    align-items: center;
+}
+
+.photoDesc {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000 !important;
+}
+
+.landingSectionCentre {
+    text-align: center;
+}
+
+.photoWithTextSector {
+    padding: 14px;
+}
+
+.aboveFooterBtn {
+
+    margin-top: 0px;
+    margin-bottom: 100px;
+
+}
+
+
+@media only screen and (min-width: 1280px) {}
+
+@media only screen and (max-width: 1024px) {
+    .col-b-12 {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .s-homeHeaderTextColor {
+        font-size: 4rem !important;
+    }
+    .photoDesc {font-size: 14px;}
+    
+}
