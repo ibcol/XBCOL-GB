@@ -2,6 +2,10 @@
     color: #000 !important;
 }
 
+.centre {
+    text-align: center;
+}
+
 .colorWt {
     color: #fff !important;
 }
@@ -19,11 +23,11 @@
 }
 
 .colorWt2 {
-    color: #fff!important;
+    color: #fff !important;
 }
 
 .colorWt2:hover {
-    color: #0286CA!important; 
+    color: #0286CA !important;
 }
 
 
@@ -90,9 +94,14 @@
     padding: 14px;
 }
 
+
 .aboveFooterBtn {
-    margin-top: 0px;
-    margin-bottom: 140px;
+    margin-top: 20px;
+    margin-bottom: 160px;
+}
+
+.fs18 {
+    font-size: 18px !important;
 }
 
 .topSection {
@@ -133,6 +142,147 @@
     font-size: 14px;
 }
 
+/* how to join */
+.ballSize {
+    width: 100px;
+    height: 100px;
+}
+
+.ballSize2 {
+    position: relative;
+    width: 157px;
+    height: 157px;
+    border-radius: 15rem !important;
+}
+
+.inSizeBall1 {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.inSizeBallText1 {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.inSizeBall2 {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.inSizeBallText {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.item-title {
+    font-size: 18px !important;
+}
+
+
+.icon .time-line {
+    height: 1px;
+    width: 40%;
+    position: absolute;
+    background: lightgrey;
+    top: 50px;
+    right: -40px;
+}
+
+.timeline {
+    text-align: center;
+}
+
+.icon.timeline h4 {
+    height: fit-content;
+    margin-bottom: 0px;
+}
+
+.paraTextLineHeight {
+    line-height: 22px;
+}
+
+
+
+/* color */
+
+.gold {
+    background-color: #D6AF36;
+}
+
+.silver {
+    background-color: #A7A7AD;
+}
+
+.bronze {
+    background-color: #A77044;
+}
+
+/* end of color */
+
+/* pj idea */
+.pjIdeaSection {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.pjPara {
+    margin-bottom: 0px;
+    color: #000000;
+}
+
+.pjHeader {
+    margin-bottom: 30px;
+}
+
+.aboveFooterBtn {
+    margin-top: 20px;
+    margin-bottom: 160px;
+
+}
+
+.toolsImg {
+    width: 150px;
+    height: 150px;
+}
+
+.peTitle {
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.peDesc {
+    /* font-weight: bold; */
+    font-size: 14px;
+    line-height: 29px;
+    width: 100%;
+    text-align: center;
+}
+
+.peImgFrame {
+    width: 100%;
+    text-align: center;
+}
+
+
+
 @media only screen and (min-width: 1280px) {}
 
 
@@ -151,6 +301,11 @@
     }
 }
 
+@media only screen and (max-width: 870px) {
+    .item-title .icon h4 {
+        font-size: 16px !important;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .s-homeHeaderTextColor {
@@ -172,10 +327,40 @@
     .media768FooterImg {
         width: 28px;
     }
+
+    .fs18 {
+        font-size: 16px !important;
+    }
+
+    .mediaPE_MarFix {
+        margin-top: 30px;
+    }
+
+    .peFs {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
     .media768FooterImg {
         width: 18px;
     }
+}
+
+
+hr {
+    border: solid black;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 2.4rem 0 1.5rem;
+    height: 0;
+}
+
+.pePadding0 {
+    padding: 0px;
+}
+
+.p-50 {
+    padding-left: 50px;
+    padding-right: 50px;
 }
