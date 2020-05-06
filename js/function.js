@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    $(".submitBg").mouseover(function () {
-        $(".submitBg").css("background-color", "white");
-        $(".submitText").css("color", "white");
+    $(".regBorder2").mouseover(function () {
+        $(".regBorder2").css("background-color", "white");
+        $(".colorWt2").css("color", "#0286CA");
     });
-    $(".submitBg").mouseout(function () {
-        $(".submitBg").css("background-color", "white");
-        $(".submitText").css("color", "white");
+    $(".regBorder2").mouseout(function () {
+        $(".regBorder2").css("background-color", "#0286CA");
+        $(".colorWt2").css("color", "white");
     });
 });

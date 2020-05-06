@@ -11,6 +11,22 @@
     border: solid 1px white;
 }
 
+.regBorder2 {
+    padding: 6px 12px 6px;
+    border: solid 1px #0286CA;
+    background: #0286CA;
+    color: #fff;
+}
+
+.colorWt2 {
+    color: #fff!important;
+}
+
+.colorWt2:hover {
+    color: #0286CA!important; 
+}
+
+
 .home-content__button {
     position: initial;
 }
@@ -163,4 +179,3 @@
         width: 18px;
     }
 }
-
