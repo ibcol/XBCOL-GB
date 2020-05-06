@@ -1,0 +1,53 @@
+.ballSize {
+    width: 100px;
+    height: 100px;
+}
+
+.ballSize2 {
+    width: 157px;
+    height: 157px;
+    border-radius: 15rem !important;
+}
+
+
+.icon .time-line {
+    height: 1px;
+    width: 40%;
+    position: absolute;
+    background: lightgrey;
+    top: 50px;
+    right: -40px;
+}
+
+.timeline {
+    text-align: center;
+}
+
+.icon.timeline h4 {
+    height: 0px;
+}
+
+.paraTextLineHeight {
+    line-height: 22px;
+}
+
+.s-section {
+    padding: 0px;
+}
+
+
+/* color */
+
+.gold {
+    background-color: #D6AF36;
+}
+
+.silver {
+    background-color: #A7A7AD;
+}
+
+.bronze {
+    background-color: #A77044;
+}
+
+/* end of color */
