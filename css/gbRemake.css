@@ -328,10 +328,36 @@
 }
 
 .fs24 {
-    font-size: 24px ;
+    font-size: 24px;
 }
 
+/* contact */
+.circleImg {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
 
+.fs14 {
+    font-size: 14px !important;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.position {
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .mediaCol-md-6 {
+        -webkit-box-flex: 0;
+        flex: 0 0 46% !important;
+        max-width: 42% !important;
+    }
+}
 
 
 @media only screen and (min-width: 1200px) {
@@ -411,10 +437,37 @@
     }
 
     .getStartRow {
-
         margin-top: 0px;
         margin-left: 0px;
+    }
 
+    .contactPerson {
+        text-align: center;
+    }
+
+    .mediaMt-5 {
+        margin-top: 30px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .position {
+        font-size: 18px;
+    }
+
+    .mediaCol-768-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    .fs18-900 {
+        font-size: 14px !important;
     }
 }
 
@@ -439,6 +492,7 @@
         max-width: 6% !important;
     }
 }
+
 
 @media only screen and (max-width: 414px) {
     .fs18f {
