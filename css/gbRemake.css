@@ -330,7 +330,13 @@
 
 
 
-@media only screen and (min-width: 1280px) {}
+@media only screen and (min-width: 1200px) {
+    .getStartRow {
+        margin-top: 65px !important;
+        margin-left: 25px !important;
+        margin-right: 0px !important;
+    }
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -382,12 +388,6 @@
     .fs18 {
         font-size: 16px !important;
     }
-
-    .fs18f {
-        text-align: center;
-        font-size: 12px !important;
-    }
-
     .mediaPE_MarFix {
         margin-top: 30px;
     }
@@ -395,14 +395,26 @@
     .peFs {
         font-size: 14px;
     }
+
     .mediaResourceImg {
         text-align: center;
-    } 
+    }
 
     .mediaResourceText {
         margin-top: 12px;
         text-align: center;
     }
+
+
+    .getStartRow {
+
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -428,6 +440,12 @@
 }
 
 @media only screen and (max-width: 414px) {
+    .fs18f {
+        text-align: center;
+        font-size: 9px !important;
+        padding: 0;
+    }
+    
     .padding-5 {
         padding-left: 0px;
         padding-right: 0px;
