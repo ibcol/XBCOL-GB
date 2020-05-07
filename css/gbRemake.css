@@ -388,6 +388,7 @@
     .fs18 {
         font-size: 16px !important;
     }
+
     .mediaPE_MarFix {
         margin-top: 30px;
     }
@@ -404,17 +405,13 @@
         margin-top: 12px;
         text-align: center;
     }
-
-
+    
     .getStartRow {
 
         margin-top: 0px;
         margin-left: 0px;
 
     }
-
-
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -445,7 +442,7 @@
         font-size: 9px !important;
         padding: 0;
     }
-    
+
     .padding-5 {
         padding-left: 0px;
         padding-right: 0px;
