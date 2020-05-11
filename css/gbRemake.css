@@ -1,11 +1,11 @@
-
-
 .colorBgBk {
     background-color: #000 !important;
     border: #000;
 }
 
-
+.pageAnchorColor {
+    color: #0286CA !important;
+}
 
 .colorBk {
     color: #000 !important;
